@@ -92,6 +92,8 @@ func updateXibAtFilePath(filePath: String)
                         }
                         
                         fontDescription.setAttributesWithDictionary(attributes)
+                    } else {
+                        println("untransformed font: \(fontDescription)")
                     }
                 }
             }
